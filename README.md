@@ -1,5 +1,8 @@
 # Flutter & Dart Project
 
+- `flutter` 도구를 이용하여 `Cros platform` 프로젝트 작성
+- `Android`, `IOS`, `Windows`, `Web`, `MacOS`, `Linux` 운영체제에서 작동되는 프로젝트를 한번의 코딩으로 작성할 수 있다.
+
 ## SDK 설치
 
 - `https://flutter.dev` 에서 `flutter sdk` 다운로드
@@ -36,18 +39,33 @@
 - `vsCode` 를 사용하여 프로젝트를 생성하면 개별 폴더로 프로젝트가 open 된다.
 - `cmd`, `shell` 명령으로 프로젝트를 생성한다.
 - 생성하는 명령 : `flutter create --org=con.callor [project name]`
-<!-- (flutter create --org=com.callor hello) -->
+- (flutter create --org=com.callor hello)
+
+
+## Flutter 프로젝트를 작성하는 과정에서 upgrade
+- `flutter` 도구 upgrade
+
+```bash
+flutter pub upgrade outdated
+flutter pub upgrade --major-versions
+flutter clean
+flutter get
+```
+
+- upgrade 과정에서 문제가 발생하는 경우 : 특히 `flutter clean` 에서 오류가 많이 발생한다. 
+- `flutter pub cache repair` 를 실행하고 `flutter clean` 을 실행
+- 프로젝트 폴더 `build` 폴더를 삭제하고 다시 `flutter clean` 실행
 
 
 
 
-android studio 설치
-sdk manager
+- android studio 설치
+- sdk manager
 
-virtual device
-tiramisu 33v
+- virtual device
+- tiramisu 33v
 
-7.1, 6, 5.1,5 설치
+- 7.1, 6, 5.1,5 설치
 
 - lib -> main.dart 의 `run` 클릭
 

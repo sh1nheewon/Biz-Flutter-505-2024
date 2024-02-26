@@ -28,8 +28,16 @@
 - `dart pub cache repair`
 - `dart pub cache clean`
 
-- `flutter create --org=com.callor hello`
 - json package 를 org=com.callor 로 설치, 프로젝트 파일명은 hello 로 설치.
+
+
+## Flutter 프로젝트 생성
+- `Flutter` 프로젝트는 `vsCode` 에 생성하는 명령이 있다.
+- `vsCode` 를 사용하여 프로젝트를 생성하면 개별 폴더로 프로젝트가 open 된다.
+- `cmd`, `shell` 명령으로 프로젝트를 생성한다.
+- 생성하는 명령 : `flutter create --org=con.callor [project name]`
+<!-- (flutter create --org=com.callor hello) -->
+
 
 
 
@@ -39,12 +47,7 @@ sdk manager
 virtual device
 tiramisu 33v
 
-7.1
-6
-5.1
-5
-
-설치
+7.1, 6, 5.1,5 설치
 
 - lib -> main.dart 의 `run` 클릭
 

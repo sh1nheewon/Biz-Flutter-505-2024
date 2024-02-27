@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 void main() {
 // const MyApp() 에서 빨간 밑줄이 나오면 ctrl . 누르기 : 생성자 자동완성

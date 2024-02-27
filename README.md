@@ -72,3 +72,14 @@ flutter get
 - 왼쪽 아래 설정에서 `codeAction` 검색 후 `json` 에서 편집
 
 - [git reference ](https://github.com/callor/Reference/blob/master/Settings/dart_setting.xml) 를 settings.json 에 붙여넣기
+
+
+## Template 이 없는 기본 구조의 프로젝트 생성
+```bash
+flutter create --org=com.callor hello -e
+```
+
+## git repository clone 한 프로젝트
+
+- 각 프로젝트 폴더에서 : `flutter pub get` 실행하기
+- 오류가 발생하면 : `flutter clean` 실행 후 `flutter pub get`
